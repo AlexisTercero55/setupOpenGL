@@ -1,0 +1,33 @@
+8/25/21
+Alexis tercero: https://github.com/AlexisTercero55
+
+En este repositorio se definen plantillas para un flujo de tabajo especifico
+en proyecos de aplicaciones con OpenGL.
+
+Caso: Uso basico de OpenGL y FreeGlut.
+
+Descripcion: 
+    Creacion y algunas configuraciones de ventanas Glut/FreeGlut.
+    Generacion del entorno interactivo con las ventanas de Glut/FreeGlut.
+
+OpenGL: 
+    Funciona correctamente, vease la carpeta de instalacion.
+
+Visual Studio Code @\.vscode:
+    task.json: Define una tarea de compilacion que se activa con ctrl + shift + b
+               ademas manda los binarios a una carpeta especial llamada 'ejecutables'
+               que sera ignorada por git mediante .gitignore
+    
+    launch.json: Define la tarea de debugging que se activa con f5.
+
+Codigos:
+    plantillaNotas.c : Se describe a detalle el funcionamieto de cada parte en el codigo
+                       que sera usado como archivo base para el desarrollo de nuevos proyectos.
+    
+    plantilla.c : El mismo archivo que el anterior pero sin notas, a menudo se cambia el nombre del
+                  archivo, ejemplo: 'plantilla.c' --renombrado a--> 'main.c'.
+                
+    test.c : Se compila a manera de prueba para verificar que la instalacion de OpenGL es correcta.
+                    
+
+    
